@@ -1,0 +1,7 @@
+{
+  "name": "glass-crm-backend",
+  "scripts": {
+    "dev": "tsx server.ts",
+    "start": "node dist/server.js"
+  }
+}
