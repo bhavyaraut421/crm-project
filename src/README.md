@@ -13,6 +13,13 @@ It helps manage leads with features like create, update, delete, search, and sta
 ⚡ Responsive modern UI (React + Tailwind)
 🧱 Tech Stack
 
+
+## Live Demo
+https://crm-project-5.onrender.com/
+
+## GitHub Repository
+https://github.com/bhavyaraut421/crm-project
+
 Frontend:
 
 React (Vite)
@@ -43,14 +50,14 @@ crmassignment/
 
 ⚙️ Setup Instructions
 1️⃣ Clone the repository
-git clone https://github.com/bhavya421/crm-project.git
+git clone https://github.com/bhavyaraut421/crm-project.git
 cd crm-project
 
 2️⃣ Backend Setup
 cd backend
 npm install
 🔐 Create .env file inside backend
-MONGO_URI=mongodb+srv://bhavyaraut4_db_user:bhavya123@cluster0.hzkl94l.mongodb.net/crm_db
+MONGO_URI=your_mongodb_connection_string
 PORT=3000
 
 ▶️ Run Backend
