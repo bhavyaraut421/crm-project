@@ -5,7 +5,8 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/crm-project/',   // 👈 ADD THIS LINE (IMPORTANT)
+    // ✅ Render deployment
+    base: '/',
 
     plugins: [react(), tailwindcss()],
 
