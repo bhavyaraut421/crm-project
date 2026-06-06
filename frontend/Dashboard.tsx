@@ -3,7 +3,9 @@ import { Search, Plus, Edit2, Trash2, ChevronLeft, ChevronRight, Filter, ArrowUp
 import { motion, AnimatePresence } from 'framer-motion';
 import { format } from 'date-fns';
 
-const API_URL = "http://localhost:3000/api";
+const API_URL =
+  import.meta.env.VITE_API_URL ||
+  "https://crm-project-4.onrender.com/api";
 
 interface Lead {
   _id: string;
